@@ -1,0 +1,17 @@
+# Screen Content Coding (SCC) - Video Codec Evaluation System
+# Requirements for Python environment
+
+# Core data processing
+pandas
+numpy
+scipy
+
+# Visualization
+matplotlib
+
+# Web UI
+streamlit
+
+# Optional (for advanced features)
+# seaborn==0.12.2  # Advanced statistical plots
+# plotly==5.16.1   # Interactive plots
