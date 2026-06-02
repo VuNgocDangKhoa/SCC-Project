@@ -25,33 +25,6 @@ Thumbs.db
 *.suo
 *.user
 
-# 1. Bỏ qua các file dữ liệu và video khổng lồ (Nguyên nhân gây lỗi)
-*.yuv
-*.mp4
-*.mkv
-*.avi
-outputs/
-dataset/
-
-# 2. Bỏ qua các thư mục build và file thực thi (C/C++)
-build/
-bin/
-*.o
-*.out
-*.exe
-*.dll
-*.so
-
-# 3. Bỏ qua các file tạm của hệ điều hành
-.DS_Store
-Thumbs.db
-
-# 4. Bỏ qua các thư mục cấu hình của IDE/Editor (VS Code, CLion,...)
-.vscode/
-.idea/
-*.suo
-*.user
-
 # 5. Bỏ qua cache của Python và môi trường ảo
 __pycache__/
 *.pyc
