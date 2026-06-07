@@ -1,8 +1,10 @@
+cat > .gitignore << 'EOF'
 # 1. Bỏ qua các file dữ liệu và video khổng lồ (Nguyên nhân gây lỗi)
 *.yuv
 *.mp4
 *.mkv
 *.avi
+*.mov
 outputs/
 dataset/
 
@@ -30,12 +32,4 @@ __pycache__/
 *.pyc
 .venv/
 venv/
-
-cat >> .gitignore << 'EOF'
-
-# Video Files
-*.mp4
-*.mkv
-*.avi
-*.mov
 EOF
