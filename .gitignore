@@ -4,14 +4,16 @@ cat > .gitignore << 'EOF'
 *.mp4
 *.mkv
 *.avi
-<<<<<<< HEAD
 *.mov
-=======
->>>>>>> a8cb95a597056dff3f87d09e508b2f14d91902d4
-output/
+*.bin
+
+# 2. Bỏ qua thư mục outputs NHƯNG cho phép push các file báo cáo an toàn
+outputs/*
+!outputs/results.csv
+!outputs/visualizations/
 dataset/
 
-# 2. Bỏ qua các thư mục build và file thực thi (C/C++)
+# 3. Bỏ qua các thư mục build và file thực thi (C/C++)
 build/
 bin/
 *.o
@@ -20,22 +22,19 @@ bin/
 *.dll
 *.so
 
-# 3. Bỏ qua các file tạm của hệ điều hành
+# 4. Bỏ qua các file tạm của hệ điều hành
 .DS_Store
 Thumbs.db
 
-# 4. Bỏ qua các thư mục cấu hình của IDE/Editor (VS Code, CLion,...)
+# 5. Bỏ qua các thư mục cấu hình của IDE/Editor (VS Code, CLion,...)
 .vscode/
 .idea/
 *.suo
 *.user
 
-# 5. Bỏ qua cache của Python và môi trường ảo
+# 6. Bỏ qua cache của Python và môi trường ảo
 __pycache__/
 *.pyc
 .venv/
 venv/
-<<<<<<< HEAD
 EOF
-=======
->>>>>>> a8cb95a597056dff3f87d09e508b2f14d91902d4
