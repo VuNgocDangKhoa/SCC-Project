@@ -8,7 +8,7 @@ cat > .gitignore << 'EOF'
 *.mov
 =======
 >>>>>>> a8cb95a597056dff3f87d09e508b2f14d91902d4
-outputs/
+output/
 dataset/
 
 # 2. Bỏ qua các thư mục build và file thực thi (C/C++)
