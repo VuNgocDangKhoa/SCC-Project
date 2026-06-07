@@ -4,7 +4,10 @@ cat > .gitignore << 'EOF'
 *.mp4
 *.mkv
 *.avi
+<<<<<<< HEAD
 *.mov
+=======
+>>>>>>> a8cb95a597056dff3f87d09e508b2f14d91902d4
 outputs/
 dataset/
 
@@ -32,4 +35,7 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+<<<<<<< HEAD
 EOF
+=======
+>>>>>>> a8cb95a597056dff3f87d09e508b2f14d91902d4
